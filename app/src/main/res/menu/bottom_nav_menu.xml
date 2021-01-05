@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_TypeOfWine"
+        android:icon="@drawable/ic_search_icon"
+        android:title="@string/title_type_of_wine" />
+
+    <item
+        android:id="@+id/navigation_FoodToWine"
+        android:icon="@drawable/ic_food_icon"
+        android:title="@string/title_pair_food_to_wine" />
+
+    <item
+        android:id="@+id/navigation_WineToFood"
+        android:icon="@drawable/ic_wine_icon"
+        android:title="@string/title_pair_wine_to_food" />
+    <item
+        android:id="@+id/navigation_History"
+        android:icon="@drawable/ic_history_icon"
+        android:title="@string/title_history" />
+    <item
+        android:id="@+id/navigation_AboutUs"
+        android:icon="@drawable/ic_about_us_icon"
+        android:title="@string/title_about_us" />
+
+
+
+</menu>

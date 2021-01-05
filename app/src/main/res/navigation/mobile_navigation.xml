@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_TypeOfWine">
+
+    <fragment
+        android:id="@+id/navigation_TypeOfWine"
+        android:name="com.example.wineapplication.ui.TypeOfWine.TypeOfWineFragment"
+        android:label="@string/title_type_of_wine"
+        tools:layout="@layout/fragment_type_of_wine" />
+
+    <fragment
+        android:id="@+id/navigation_FoodToWine"
+        android:name="com.example.wineapplication.ui.PairFoodToWine.PairFoodToWineFragment"
+        android:label="@string/title_pair_food_to_wine"
+        tools:layout="@layout/fragment_pair_food_to_wine" />
+
+    <fragment
+        android:id="@+id/navigation_WineToFood"
+        android:name="com.example.wineapplication.ui.PairWineToFood.PairWineToFoodFragment"
+        android:label="@string/title_pair_wine_to_food"
+        tools:layout="@layout/fragment_pair_wine_to_food" />
+    <fragment
+        android:id="@+id/navigation_History"
+        android:name="com.example.wineapplication.ui.History.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/navigation_AboutUs"
+        android:name="com.example.wineapplication.ui.AboutUs.AboutUsFragment"
+        android:label="@string/title_about_us"
+        tools:layout="@layout/fragment_aboutus" />
+</navigation>
